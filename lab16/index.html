@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="resultado" class="tela">0</div>
+    <br>
+    <div class="Calculadora">
+        <div class="botoes">
+
+            
+            <button class="btn" onclick="AdicionarNumero('7')">7</button>
+            <button class="btn" onclick="AdicionarNumero('8')">8</button>
+            <button class="btn" onclick="AdicionarNumero('9')">9</button>
+            <button class="btn operador" onclick="AdicionarOperacao('*')">*</button>
+
+            
+            <button class="btn" onclick="AdicionarNumero('4')">4</button>
+            <button class="btn" onclick="AdicionarNumero('5')">5</button>
+            <button class="btn" onclick="AdicionarNumero('6')">6</button>
+            <button class="btn operador" onclick="AdicionarOperacao('/')">/</button>
+
+            <button class="btn" onclick="AdicionarNumero('1')">1</button>
+            <button class="btn" onclick="AdicionarNumero('2')">2</button>
+            <button class="btn" onclick="AdicionarNumero('3')">3</button>
+            <button class="btn operador" onclick="AdicionarOperacao('-')">-</button>
+
+            <button class="btn" onclick="AdicionarNumero('0')">0</button>
+            <button class="btn" onclick="limpar()">c</button>
+            <button class="btn" onclick="calcular()">=</button>
+            <button class="btn operador" onclick="AdicionarOperacao('+')">+</button>
+
+            
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
